@@ -1,18 +1,112 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Super Shop</title>
+	<title>Registation Formm</title>
 </head>
 <body>
-    <ul style="list-style-type:none;">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutus.htmo.html">About Us</a></li>
-      <li><a href="contactus.html.html">Contact Us</a></li>
-      <li><a href="login.html">Login</a></li>
-      <li><a href="registration.html">Registration</a></li>
-  </ul>
-  <h1>Welcome to our shuper shop</h1>
-  <p>This is a super shop whice is open for all general people</p>
-  <img src="hd_flowers_photo_04_hd_picture_167029.jpg" alt="google.com" width="104" height="142">
+	
+	<form>
+		<h4 style="color:red;"><b>Donor Information</b></h4>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br>
+  Commpany:<br>
+  <input type="text" name="commpany"><br>
+  Address1:<br>
+  <input type="text" name="add1"><br>
+  Address2:<br>
+  <input type="text" name="add2"><br>
+  City:<br>
+  <input type="text" name="city"><br>
+   State:<br>
+  <select name="state">
+  <option value="ban">Bangladesh</option>
+  <option value="ind">India</option>
+  <option value="pak">Pakistan</option>
+  <option value="mayan">Mmayanmmar</option>
+  <option value="others">Others</option>
+</select>
+<br>
+  Zip Code:<br>
+  <input type="text" name="zip"><br>
+   Country:<br>
+  <select name="country">
+  <option value="ban">Bangladesh</option>
+  <option value="ind">India</option>
+  <option value="pak">Pakistan</option>
+  <option value="mayan">Mmayanmmar</option>
+  <option value="others">Others</option>
+</select>
+<br>
+ Phone:<br>
+  <input type="text" name="phone">
+  <br>
+  Fax:<br>
+  <input type="text" name="fax">
+  <br>
+   Email:<br>
+  <input type="text" name="email">
+  <br>
+  Donation Amount:
+  <input type="radio" name="donation" value="none"> None
+  <input type="radio" name="donation" value="50"> $50
+  <input type="radio" name="donation" value="75"> $75
+  <input type="radio" name="donation" value="100"> $100
+  <input type="radio" name="donation" value="250"> $250
+  <input type="radio" name="donation" value="others"> Others
+  <br><br>
+  Requrring Donation:<br>
+  <input type="checkbox" name="I am">I am interested in giving on a regular basis<br>
+  Monthly credit card $ 
+  <input type="text" name="card">
+  For
+  <input type="text" name="for">
+  Month:<br>
+  <h3><b>Honareable and Memorial Donation Information</b></h3><br>
+
+  I would like to make this donation:<br>
+  <input type="radio" name="honor">To Honar<br>
+  <input type="radio" name="honor">In Memory of<br>
+
+  name<br>
+  <input type="text" name="name"><br>
+  Acknowledge Donation to<br>
+  <input type="text" name="Acknowledge Donation to"><br>
+  Address<br>
+  <input type="text" name="Address"><br>
+  City:<br>
+  <input type="text" name="city"><br>
+   State<br>
+  <select name="state">
+  <option value="ban">Bangladesh</option>
+  <option value="ind">India</option>
+  <option value="pak">Pakistan</option>
+  <option value="mayan">Mmayanmmar</option>
+  <option value="others">Others</option>
+</select>
+<br>
+  Zip<br>
+  <input type="text" name="zip"><br><br>
+
+  <h3><b>Additional Information</b></h3><br>
+  Please enter your name,company or organization as you like it to appear in our Publication:<br>
+  Name
+  <input type="text" name="Name"><br>
+  <input type="checkbox" name="I am">I would like my gift to remain annonymous.<br>
+  <input type="checkbox" name="I am">My employer offers a matching gift program.I will mail the matching gift form<br>
+  <input type="checkbox" name="I am">Please save the cost of acknowledging this gift by not mailing a thank you letter<br>
+
+  Comments<br>
+  <textarea rows="4" cols="50"></textarea>
+
+
+
+<br><br>
+  <input type="submit" value="Submit">
+  
+</form>
+
 </body>
 </html>
+
